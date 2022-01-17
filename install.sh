@@ -74,7 +74,7 @@ cd ~
 check_directory aasdk "aasdk"
 if [ $? == 1 ]
 then
-    git clone -b development https://github.com/w-j-schmidt/aasdk aasdk
+    git clone -b newdev https://github.com/opencardev/aasdk aasdk
     error "Couldn't clone AASDK!"
 fi
 
@@ -104,7 +104,7 @@ cd ~
 check_directory openauto "openauto"
 if [ $? == 1 ]
 then
-    git clone -b development https://github.com/w-j-schmidt/openauto openauto
+    git clone -b crankshaft-ng https://github.com/opencardev/openauto openauto
     error "Couldn't clone openauto!"
 fi
 
